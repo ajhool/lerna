@@ -34,5 +34,8 @@
     "@lerna/validation-error": "file:../validation-error",
     "npm-package-arg": "^6.1.0",
     "semver": "^5.5.0"
+  },
+  "devDependencies": {
+    "@lerna/package": "link:../package"
   }
 }
