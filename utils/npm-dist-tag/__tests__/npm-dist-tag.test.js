@@ -1,9 +1,9 @@
 "use strict";
 
-jest.mock("npm-registry-fetch");
+jest.mock("@evocateur/npm-registry-fetch");
 
 // mocked modules
-const fetch = require("npm-registry-fetch");
+const fetch = require("@evocateur/npm-registry-fetch");
 
 // file under test
 const npmDistTag = require("..");
